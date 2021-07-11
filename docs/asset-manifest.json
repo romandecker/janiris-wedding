@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/janiris-wedding/static/css/main.b2cd01ef.chunk.css",
+    "main.js": "/janiris-wedding/static/js/main.b30966ae.chunk.js",
+    "main.js.map": "/janiris-wedding/static/js/main.b30966ae.chunk.js.map",
+    "runtime-main.js": "/janiris-wedding/static/js/runtime-main.8577d66c.js",
+    "runtime-main.js.map": "/janiris-wedding/static/js/runtime-main.8577d66c.js.map",
+    "static/js/2.40ea92ef.chunk.js": "/janiris-wedding/static/js/2.40ea92ef.chunk.js",
+    "static/js/2.40ea92ef.chunk.js.map": "/janiris-wedding/static/js/2.40ea92ef.chunk.js.map",
+    "static/js/3.8b7d29c0.chunk.js": "/janiris-wedding/static/js/3.8b7d29c0.chunk.js",
+    "static/js/3.8b7d29c0.chunk.js.map": "/janiris-wedding/static/js/3.8b7d29c0.chunk.js.map",
+    "index.html": "/janiris-wedding/index.html",
+    "static/css/main.b2cd01ef.chunk.css.map": "/janiris-wedding/static/css/main.b2cd01ef.chunk.css.map",
+    "static/js/2.40ea92ef.chunk.js.LICENSE.txt": "/janiris-wedding/static/js/2.40ea92ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8577d66c.js",
+    "static/js/2.40ea92ef.chunk.js",
+    "static/css/main.b2cd01ef.chunk.css",
+    "static/js/main.b30966ae.chunk.js"
+  ]
+}
