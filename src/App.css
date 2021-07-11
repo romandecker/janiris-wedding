@@ -1,38 +1,74 @@
 .App {
-  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #000;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginForm {
+  padding: 2em;
+  background-color: #adb4b4;
+  border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fieldGroup:not(:last-child) {
+  margin-bottom: 1em;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.submit {
+  display: flex;
+  justify-content: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  margin-bottom: 0.2em;
 }
+
+input[type="password"] {
+  padding: 0.5em;
+  border-radius: 5px;
+
+  min-width: 300px;
+}
+
+input[type="submit"] {
+  padding: 1em;
+  background-color: #056d63;
+  color: #04ca9f;
+  border: 0px solid white;
+  border-radius: 4px;
+
+  font-size: 1.1em;
+}
+
+h1 {
+  color: #000;
+}
+
+form.invalid input[type="password"] {
+  border-color: #c00;
+}
+form.invalid label {
+  color: #c00;
+  font-weight: bold;
+}
+
+.fieldError {
+  color: #c00;
+}
+
+/*
+#04ca9f
+#056d63
+#5c9c96
+#adb4b4
+#3a7e7d
+#000000
+*/
